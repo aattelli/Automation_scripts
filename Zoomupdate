@@ -37,7 +37,7 @@ if [ '`/usr/bin/uname -p`'="i386" -o '`/usr/bin/uname -p`'="x86_64" ]; then
                 currentinstalledver=`/usr/bin/defaults read /Applications/zoom.us.app/Contents/Info CFBundleVersion`
                 echo "Current installed version is: $currentinstalledver"
                 if [ ${latestver} = ${currentinstalledver} ]; then
-                        echo "Zoom is current. Exiting"
+                        echo "Zoom is Upto Date. Exiting"
                         exit 0
                 fi
         else
